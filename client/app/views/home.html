@@ -1,2 +1,97 @@
-<a href="#!/inner">Inner Page</a>
-<h1>{{name}}</h1>
+<div id="wrapper">
+     <!-- BEGIN body -->
+      <div id="body">
+        <!-- BEGIN content -->
+        <div id="content">
+          <!-- begin featured-posts -->
+          <h2>Featured Posts</h2>
+          <div class="break"></div>
+          <div ng-repeat="val in data">
+	          <div class="post"> 
+	              <img src="{{val.thumb}}" alt=""/>
+	              <h1><a href="">{{val.name}}</a></h1>
+	              <p>{{val.desc}}</p>
+	              <p class="date">{{val.time}} &nbsp;&nbsp;| <a href="">{{val.category}}</a> |&nbsp; {{val.comment}} Comments</p>
+	          </div>
+	          <div class="break"></div>
+      	  </div>
+          <div class="navigation"> <a href="http://all-free-download.com/free-website-templates/">Previous</a> <a href="http://all-free-download.com/free-website-templates/">1</a> <a href="http://all-free-download.com/free-website-templates/">2</a> <a href="http://all-free-download.com/free-website-templates/">3</a> <a href="http://all-free-download.com/free-website-templates/">4</a> <a href="http://all-free-download.com/free-website-templates/">Next</a> </div>
+        </div>
+        <!-- END content -->
+        <!-- BEGIN sidebar -->
+        <div id="sidebar">
+          <!-- begin sponsors -->
+          <h2>Sponsors</h2>
+          <div class="break"></div>
+          <a href="http://all-free-download.com/free-website-templates/"><img src="images/ad125x125.jpg" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/"><img src="images/ad125x125.jpg" alt="" /></a> <a class="sponsors" href="http://all-free-download.com/free-website-templates/"><img src="images/ad125x125.jpg" alt="" /></a> <a class="sponsors" href="http://all-free-download.com/free-website-templates/"><img src="images/ad125x125.jpg" alt="" /></a>
+          <!-- end sponsors -->
+          <!-- begin search -->
+          <form action="http://all-free-download.com/free-website-templates/">
+            <input type="text" name="s" id="s" value="" />
+            <button type="submit">Search</button>
+          </form>
+          <!-- end search -->
+          <!-- begin popular posts -->
+          <div class="pop">
+            <h2>Popular Posts</h2>
+            <div class="break"></div>
+            <ul>
+              <li> <a class="title" href="http://all-free-download.com/free-website-templates/">Top 10 Ways to Make Money Online</a>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse interdum..</p>
+              </li>
+              <li> <a class="title" href="http://all-free-download.com/free-website-templates/">The Basics of Photography and Choosing the Right Subject</a>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse interdum..</p>
+              </li>
+              <li> <a class="title" href="http://all-free-download.com/free-website-templates/">How to Create Wordpress Themes from Scratch and Selling them Online</a>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse interdum..</p>
+              </li>
+            </ul>
+            <div class="break"></div>
+          </div>
+          <!-- begin popular posts -->
+          <!-- begin categories -->
+          <div class="category">
+            <h2>Categories</h2>
+            <div class="break"></div>
+            <ul>
+              <li><a href="http://all-free-download.com/free-website-templates/">Advertising</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Fashion</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Lifestyle</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Networking</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Sports</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Gadgets</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">News</a></li>
+            </ul>
+            <div class="break"></div>
+          </div>
+          <!-- end categories -->
+          <div class="break"></div>
+          <!-- begin archives -->
+          <div class="archive">
+            <h2>Archives</h2>
+            <div class="break"></div>
+            <ul>
+              <li><a href="http://all-free-download.com/free-website-templates/">January 2009</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">March 2009</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">May 2009</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">July 2009</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">February 2009</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">April 2009</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">June 2009</a></li>
+            </ul>
+            <div class="break"></div>
+          </div>
+          <!-- end archives -->
+          <div class="break"></div>
+
+        </div>
+        <!-- END sidebar -->
+        <div class="break"></div>
+      </div>
+      <!-- END body -->
+      <!-- BEGIN footer -->
+      <div id="footer">
+        <p>Copyright &copy; 2009 - <a href="http://all-free-download.com/free-website-templates/">Website Name</a> &middot; All Rights Reserved | Template by: <a href="http://www.wpthemedesigner.com/">WordPress Designer</a> | Get More <a href="http://all-free-download.com/free-website-templates/">Free CSS Templates</a></p>
+      </div>
+      <!-- END footer -->
+    </div>

@@ -1,0 +1,34 @@
+[
+    {
+        "thumb" : "images/thumb01.jpg",
+        "name" : "Blog Post 1",
+        "desc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoqe penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+        "comment" : "11",
+        "time" : "04.23.09",
+        "category" : "ADVERTISING"
+    },
+    {
+        "thumb" : "images/thumb02.jpg",
+        "name" : "Blog Post 2",
+        "desc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoqe penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+        "comment" : "25",
+        "time" : "04.23.09",
+        "category" : "ADVERTISING"
+    },
+    {
+        "thumb" : "images/thumb03.jpg",
+        "name" : "Blog Post 3",
+        "desc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoqe penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+        "comment" : "3",
+        "time" : "04.23.09",
+        "category" : "ADVERTISING"
+    },
+    {
+        "thumb" : "images/thumb04.jpg",
+        "name" : "Blog Post 4",
+        "desc" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoqe penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+        "comment" : "58",
+        "time" : "04.23.09",
+        "category" : "ADVERTISING"
+    }
+]
